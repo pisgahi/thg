@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THG</title>
+    <link rel="stylesheet" href="/static/css/tw.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/static/images/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/static/images/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/images/apple-touch-icon.png">
+</head>
+
+<body class="bg-[#282828]">
+    <header class="w-full  border-b-[1px] border-[#323131] flex justify-center">
+        <nav class="text-[#7f7f7f] flex items-center h-[40px]">
+            <div class="flex justify-center items-center rounded-md w-[80px] bg-[#313131] hover:bg-[#383838]">
+                <a href="/">Posts</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex flex-col items-center pt-4">
+        <div>
+            <div>
+                {{template "card.html" .}}
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

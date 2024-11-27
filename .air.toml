@@ -1,0 +1,7 @@
+[build]
+  include_dir = ["src/components", "src/tmpl", "static/css"]
+
+[proxy]
+  enabled = true
+  proxy_port = 8001
+  app_port = 8080
