@@ -1,1 +1,38 @@
 # THG Stack
+
+Thg is a lighweight template for spinning up websites using <b>T</b>ailwind CSS, <b>H</b>TML, <b>G</b>olang, and [Chi](https://github.com/go-chi/chi) for routing.
+
+## Features
+- Live reloading on save using [Air](https://github.com/air-verse/air)
+- Templates through native Golang text/template package 
+- Reusable components
+
+## Getting Started
+Clone repo
+```bash
+git clone https://github.com/pisgahi/thg.git
+cd thg
+```
+
+<h4>Dev</h4>
+
+Begin Tailwind file watching and generate the static CSS file 
+```bash
+make wind
+```
+In another terminal session start Air for live reloading
+```bash
+make air
+```
+
+<h4>Production</h4>
+
+Run the final product
+```bash
+make run
+```
+
+Build the final executable
+```bash
+make build
+```
