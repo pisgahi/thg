@@ -16,23 +16,24 @@ cd thg
 
 <h4>Dev</h4>
 
-Begin Tailwind file watching and generate the static CSS file 
+1. Begin Tailwind file watching and generate the static CSS file 
 ```bash
 make wind
 ```
-In another terminal session start Air for live reloading
+
+2. In another terminal session start Air for live reloading
 ```bash
 make air
 ```
 
 <h4>Production</h4>
 
-Run the final product
+1. Run the final product
 ```bash
 make run
 ```
 
-Build the final executable
+2. Build the final executable
 ```bash
 make build
 ```
