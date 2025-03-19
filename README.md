@@ -14,6 +14,13 @@ git clone https://github.com/pisgahi/thg.git
 cd thg
 ```
 
+<b>Prerequisites</b>  
+- [Install Tailwind CSS](https://tailwindcss.com/blog/standalone-cli) (preferably the standalone CLI).  
+- Create a `.env` file and add the following. `PORT=8080` is just an example port:  
+```bash
+PORT=8080
+```
+
 <h4>Dev</h4>
 
 1. Begin Tailwind file watching and generate the static CSS file 
